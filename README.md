@@ -9,5 +9,7 @@ Slide Download : https://drive.google.com/file/d/0B1tctSRUJOrRVnktZ2k5bUttZTQ/vi
 
 Report Download : https://drive.google.com/file/d/0B-u-eHOCCFHxcWV2N0VQNU5vcGs/view?usp=sharing
 
-<a href="https://play.google.com/store/apps/details?id=com.oakraw.shakefood"><img src="http://www.das-boot.com/img/playStore.png"></a>
+
+
+<a href="https://play.google.com/store/apps/details?id=com.oakraw.shakefood"><img width="30%" src="http://www.das-boot.com/img/playStore.png"></a>
 
