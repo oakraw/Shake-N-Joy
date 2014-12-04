@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Shake\'N Joy</string>
+    <string name="CLIENT_ID">M0B1G0U0D5WSZSF5VYJ4F4CTRSGTBAGGYURXWYOMAGUHIF21</string>
+    <string name="CLIENT_SECRET">HMFWDFXVJWJGWOIPRWZJJXBB2NG0MB3WZAQGGFSLNGDBCHKE</string>
+    <string name="update_location">Updating your location...</string>
+    <string name="gps_disabled">GPS is currently disabled</string>
+    <string name="not_found">Not found these places around here.</string>
+    <string name="read_more">Read More</string>
+    <string name="problem_network">Problem with network</string>
+    <string name="food">Food</string>
+    <string name="night_life">Night Life</string>
+    <string name="coffee">Coffee</string>
+    <string name="dessert">Dessert</string>
+    <string name="shopping">Shopping</string>
+    <string name="sights">Sights</string>
+    <string name="tutorial1">Discovering new places with Shake\'N Joy.</string>
+    <string name="tutorial2">Keep shaking for expanding the coverage area.</string>
+    <string name="tutorial3">Enjoy the new place or you can shake again if you don\'t satisfy.</string>
+    <string name="got_it">GOT IT</string>
+    <string name="gps_dialog_header">Location services disabled</string>
+    <string name="gps_dialog_content">Shake\'N Joy needs access to your location. Please turn on location access.</string>
+    <string name="cancel">Cancel</string>
+    <string name="accept">Accept</string>
+    <string name="on_internet_connection">No Internet Connection</string>
+    <string name="try_again">Try again</string>
+
+
+</resources>

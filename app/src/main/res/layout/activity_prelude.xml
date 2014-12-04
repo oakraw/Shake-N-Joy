@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.oakraw.shakenjoy.PreludeActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"
+        android:background="@color/orange_dark">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewPager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <com.viewpagerindicator.UnderlinePageIndicator
+            android:id="@+id/titles"
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:layout_gravity="bottom"
+            app:selectedColor="@color/red_dark" />
+
+        <com.oakraw.shakenjoy.custom.TextViewImpact
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="powered by foursquare"
+            android:textColor="@color/white_trans"
+            android:layout_margin="@dimen/activity_vertical_margin"
+            android:layout_gravity="top|right"/>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+
+        <com.oakraw.shakenjoy.custom.CustomButton
+            android:id="@+id/btn"
+            style="@style/my.Button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@android:color/black"
+            android:textSize="25sp"
+            android:text="@string/got_it" />
+
+
+
+
+    </FrameLayout>
+
+
+</LinearLayout>

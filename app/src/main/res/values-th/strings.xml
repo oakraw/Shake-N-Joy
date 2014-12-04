@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Shake\'N Joy</string>
+    <string name="CLIENT_ID">M0B1G0U0D5WSZSF5VYJ4F4CTRSGTBAGGYURXWYOMAGUHIF21</string>
+    <string name="CLIENT_SECRET">HMFWDFXVJWJGWOIPRWZJJXBB2NG0MB3WZAQGGFSLNGDBCHKE</string>
+    <string name="update_location">กำลังอัพเดตตำแหน่ง...</string>
+    <string name="gps_disabled">ยังไม่ได้เปิดการใช้งาน GPS</string>
+    <string name="not_found">ไม่พบสถานที่บริเวณนี้</string>
+    <string name="read_more">อ่านต่อ</string>
+    <string name="problem_network">Problem with network</string>
+
+    <string name="food">อาหาร</string>
+    <string name="night_life">ชีวิตยามราตรี</string>
+    <string name="coffee">กาแฟ</string>
+    <string name="dessert">ของหวาน</string>
+    <string name="shopping">ช็อปปิ้ง</string>
+    <string name="sights">สถานที่ท่องเที่ยว</string>
+    <string name="tutorial1">ค้นพบสถานที่ใหม่ๆกับ Shake\'N Joy</string>
+    <string name="tutorial2">เขย่าอุปกรณ์ของคุณ\nเพื่อขยายพื้นที่\nในการค้นหา</string>
+    <string name="tutorial3">สนุกไปกับสถานที่ใหม่ๆ\nที่ได้ค้นพบ หรือเขย่าอีกครั้ง\nเพื่อค้นหาต่อ</string>
+    <string name="got_it">รับทราบ</string>
+    <string name="gps_dialog_header">ไม่สามารถระบุตำแหน่งได้</string>
+    <string name="gps_dialog_content">Shake\'N Joy ต้องการเข้าถึงตำแหน่งของคุณ โปรดเปิดการเข้าถึงตำแหน่ง</string>
+    <string name="cancel">ยกเลิก</string>
+    <string name="accept">ตกลง</string>
+    <string name="on_internet_connection">ไม่สามารถ\nเข้าถึง\nอินเตอร์เน็ตได้</string>
+    <string name="try_again">ลองอีกครั้ง</string>
+
+</resources>

@@ -1,0 +1,173 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.oakraw.shakenjoy.DetailActivity">
+
+    <RelativeLayout
+        android:id="@+id/ui"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <!--    <ImageView
+                android:id="@+id/header"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/view"/>-->
+        <FrameLayout
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="300dp">
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/viewPager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <com.viewpagerindicator.CirclePageIndicator
+                android:id="@+id/titles"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="bottom"/>
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/fab"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3"
+                android:background="@color/orange_dark"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/orange_dark"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp">
+
+
+                    <com.oakraw.shakenjoy.custom.TextViewImpact
+                        android:id="@+id/shopName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:singleLine="true"
+                        android:text="Nice Restaurant"
+                        android:textColor="@android:color/white"
+                        android:textSize="40sp" />
+
+                    <com.oakraw.shakenjoy.custom.TextViewImpact
+                        android:id="@+id/shopLocation"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:singleLine="true"
+                        android:text="768 Xxid Rd xxxxx"
+                        android:textColor="@android:color/white"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="7">
+
+                <FrameLayout
+                    android:id="@+id/rateCircle"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <View
+                        android:id="@+id/circle"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/round_btn" />
+
+                    <com.oakraw.shakenjoy.custom.TextViewRL
+                        android:id="@+id/rating"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="7.5"
+                        android:textColor="@color/orange_dark"
+                        android:textSize="60sp" />
+
+                    <com.oakraw.shakenjoy.custom.TextViewRL
+                        android:id="@+id/totalScore"
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="110dp"
+                        android:gravity="left"
+                        android:text="/10"
+                        android:textColor="@color/orange_dark"
+                        android:visibility="invisible"
+                        android:textSize="40sp"  />
+
+                </FrameLayout>
+
+                <com.oakraw.shakenjoy.custom.TextViewRM
+                    android:id="@+id/readMore"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|right"
+                    android:layout_margin="10dp"
+                    android:text="@string/read_more"
+                    android:state_selected="true"
+                    android:textColor="@drawable/gray"
+                    android:textSize="20sp" />
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <com.melnykov.fab.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/header"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="-28dp"
+            android:layout_marginRight="15dp"
+            android:src="@drawable/ic_action_gps_ic"
+            fab:fab_type="normal"
+            fab:fab_colorNormal="@color/fab_color"
+            fab:fab_colorPressed="@color/fab_color_press"
+            fab:fab_colorRipple="@color/fab_color_ripple"
+             />
+
+
+    </RelativeLayout>
+
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:layout_gravity="center" />
+
+
+
+
+</FrameLayout>

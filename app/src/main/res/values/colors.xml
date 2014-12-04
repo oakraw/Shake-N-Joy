@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="red_dark">#dc765f</color>
+    <color name="red_light">#de9686</color>
+    <color name="purple_dark">#a6676f</color>
+    <color name="purple_light">#bea2a6</color>
+    <color name="pink_dark">#78909c</color>
+    <color name="pink_light">#ffa2beca</color>
+    <color name="orange_dark">#457B90</color>
+    <color name="orange_light">#A3C5D2</color>
+    <color name="yellow_dark">#f6c065</color>
+    <color name="yellow_light">#f9dba8</color>
+    <color name="green_dark">#66ae9c</color>
+    <color name="green_light">#9bdbcb</color>
+
+    <!--<color name="red_dark">#f34433</color>
+    <color name="red_light">#de9686</color>
+    <color name="purple_dark">#8c5787</color>
+    <color name="purple_light">#bea2a6</color>
+    <color name="pink_dark">#b76600</color>
+    <color name="pink_light">#e8bcb3</color>
+    <color name="orange_dark">#4e75cf</color>
+    <color name="orange_light">#A3C5D2</color>
+    <color name="yellow_dark">#edae38</color>
+    <color name="yellow_light">#f9dba8</color>
+    <color name="green_dark">#00bf74</color>
+    <color name="green_light">#9bdbcb</color>r-->
+
+    <color name="purple">#8a548e</color>
+    <color name="gray">#52635d</color>
+    <color name="gray_light">#79887b</color>
+
+
+    <color name="fab_color">@color/red_dark</color>
+    <color name="fab_color_press">@color/red_light</color>
+    <color name="fab_color_ripple">#ffa7544c</color>
+    <color name="round_btn">@color/yellow_dark</color>
+    <color name="transparent_press">#32ffffff</color>
+    <color name="panel">#4cb6ac</color>
+
+    <color name="white_trans">#99ffffff</color>
+    <color name="area_circle">#98dc765f</color>
+    <color name="button_color">#fafafa</color>
+
+
+</resources>
